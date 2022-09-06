@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+$color-header: #111111;
+$color-orange-primary: rgba(252, 181, 0, 1);
+$color-orange-secondary: #FCB500;
+
+$height-header: 80px;
+$height-hero: 792px;
+$wrapper-padding: 0 64px;
+
+* {
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: $height-header;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color-header;
+}
+.wrapper {
+  padding: 0 64px;
+}
+
+.hero {
+  height: $height-hero;
+}
