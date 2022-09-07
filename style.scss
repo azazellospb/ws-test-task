@@ -317,6 +317,10 @@ $nav-width: 50.5vw;
     &__item {
       margin: 0;
     }
+    &__list {
+      gap: 33px;
+      justify-content: space-between;
+    }
   }
 
   .header {
